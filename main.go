@@ -1,6 +1,7 @@
 package main
 
 import (
+	"crypto/tls"
 	"github.com/ssimunic/gosensors"
 	"io/ioutil"
 	"log"
@@ -24,6 +25,7 @@ func init() {
 	if period == "" {
 		period = "10"
 	}
+	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
 }
 
 func main() {
