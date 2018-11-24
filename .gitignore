@@ -1,0 +1,5 @@
+gosensor-agent
+.idea/
+*.iml
+vendor/*/
+gosensors-agent

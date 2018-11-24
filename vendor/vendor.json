@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "rJ2PGuaUT6xZO9SNjmSx+hKbS5Y=",
+			"path": "github.com/ssimunic/gosensors",
+			"revision": "e7ab9a4e799b0ab8368b6e5f1f67f4b126e6a309",
+			"revisionTime": "2017-04-14T00:04:17Z"
+		}
+	],
+	"rootPath": "github.com/kszafran/gosensors-agent"
+}
